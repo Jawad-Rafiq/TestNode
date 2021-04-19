@@ -1,0 +1,13 @@
+POST http://localhost:4000/add
+Content-Type: application/json
+
+{
+    "name":"Jawad"
+}
+
+############
+GET http://localhost:4000/note/viewNote
+
+
+##########
+DELETE http://localhost:4000/note/deleteNote/5f0c142a54f3b912d8d94d1f
