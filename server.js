@@ -9,6 +9,7 @@ var app = express();
 // app.use(express.json());
 app.use(bodyParser.json());
 app.use(cors());
+app.options('*', cors());
 app.post('/add',(req,res)=>{
     var myData = new user_schema(req.body);
     console.log(JSON.stringify(req.body));
