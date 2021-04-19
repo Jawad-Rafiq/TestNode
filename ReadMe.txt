@@ -1,0 +1,4 @@
+- Model folder contain the scheme of the database
+- server.js is the main file that contain all the configuration and now its also have the API but when we have more the one API or best practise is to make route folder and make all the API there and use npm router to locate them.
+- test.rest is the file which is used to test the API if its working good or have some issue, the other method to test API is to use software names as Postman to test API
+- .env file contain all the enviornment variables values that are used in program such as passwords, database connection strings etc

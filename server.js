@@ -3,7 +3,8 @@ var express = require('express');
 var cors = require('cors');
 const bodyParser = require('body-parser');
 var user_schema = require('./model/regModel');
-mongoose.connect('mongodb+srv://Jawad:Test123@cluster0.2zrro.mongodb.net/test')
+require('dotenv').config();
+mongoose.connect(process.env.db_connect);
 var app = express();
 
 // app.use(express.json());
